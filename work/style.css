@@ -1,0 +1,41 @@
+body{
+    background-color: #3498db;
+    font-family: 'Times New Roman';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-continer{
+    background-color: white;
+    padding:  30px;
+    border-radius: 7px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    text-align: center;
+   
+}
+
+h2{
+    color: #2980b9;
+}
+
+input{
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1 solid #ddd;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    background-color: #2980b9;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin: 20px auto;
+    opacity: 0.5;
+}

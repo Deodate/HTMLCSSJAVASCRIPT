@@ -1,4 +1,4 @@
-body{
+body {
     background-color: #3498db;
     font-family: 'Times New Roman';
     display: flex;
@@ -8,29 +8,28 @@ body{
     margin: 0;
 }
 
-.form-continer{
+.form-continer {
     background-color: white;
-    padding:  30px;
+    padding: 30px;
     border-radius: 7px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
     width: 300px;
     text-align: center;
-   
 }
 
-h2{
+h2 {
     color: #2980b9;
 }
 
-input{
+input {
     width: 80%;
     padding: 10px;
     margin: 10px 0;
-    border: 1 solid #ddd;
+    border: 1px solid #ddd; 
     border-radius: 5px;
 }
 
-input[type="submit"]{
+input[type="submit"] {
     background-color: #2980b9;
     width: 80px;
     color: white;
@@ -38,4 +37,17 @@ input[type="submit"]{
     border: none;
     margin: 20px auto;
     opacity: 0.5;
+}
+
+.error-message {
+    color: red;
+    display: none;
+}
+
+input.valid {
+    border: 2px solid green;
+}
+
+input:invalid {
+    border-color: #e74c3c;
 }

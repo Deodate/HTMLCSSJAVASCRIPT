@@ -11,17 +11,19 @@
     <body>
         <div class="form-continer">
             <h2>Register</h2>
-            <form class="registerForm">
-                <input type="text" class="firstName" placeholder="First Name" />
-                <input type="text" class="lastName" placeholder="Last Name" />
-                <input type="text" class="username" placeholder="Username" />
-                <input type="text" class="password" placeholder="Password" />
-                <input type="text" class="confirmPassword" placeholder="Confirm Password" />
+            <form id="registerForm">
+                <input type="text" id="firstName" placeholder="First Name" />
+                <input type="text" id="lastName" placeholder="Last Name" />
+                <input type="text" id="username" placeholder="Username" />
+                <input type="password" id="password" placeholder="Password" />
+                <input type="password" id="confirmPassword" placeholder="Confirm Password" />
                 <input type="submit" value="Register">
+                <p id="error" class="error-message">Passwords do not match!</p>
 
             </form>
-
+            <p><a href="login.html">You an account? Login here</a></p>
         </div>
+        <script src="registrationScript.js"></script>
     </body>
-
+   
 </html>
